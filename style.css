@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.account-box {
+    
+    width: 40px;
+    height: 40px;
+    Background: #F8F8F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box img {
+    width: 20px;
+}
+
+/*nav*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+/* First-desktop*/
+
+/* Planshet*/
+@media screen and (max-width: 1000px)
+ {
+    .container {max-width: 900px;}
+ }    
+/* Telefon*/
+@media screen and (max-width:600px){
+    .container {
+        max-width: 500px;
+    }
+    
+}
